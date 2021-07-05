@@ -7,11 +7,11 @@ virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
 Structure:
 .
 ├── formatWhatsAppTexts.py
-├── conversations
+├── conversationsdir/
 │   ├── chat.txt
 │   └── anotherchat.txt
 ├── README.md
-├──.gitignore
+├── .gitignore
 └── requirements.txt
 
 python hello.py <converations-dir> <your-username> <outpt-csv-name>
