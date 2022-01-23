@@ -5,13 +5,13 @@ To activate:
 virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
 
 Structure:
-.\n
-├── formatWhatsAppTexts.py \n
-├── conversationsdir/ \n
-│   ├── chat.txt \n
-│   └── anotherchat.txt \n
-├── README.md \n
-├── .gitignore \n
-└── requirements.txt \n
+.<br />
+├── formatWhatsAppTexts.py <br />
+├── conversationsdir/ <br />
+│   ├── chat.txt <br />
+│   └── anotherchat.txt <br />
+├── README.md <br />
+├── .gitignore <br />
+└── requirements.txt <br />
 
 python hello.py <converations-dir> <your-username> <outpt-csv-name>
