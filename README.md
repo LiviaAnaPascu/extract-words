@@ -1,12 +1,13 @@
 # extract-words
-A script that extracts words from your conversations and returns a csv with a count
+A script that extracts words from your conversations and returns a csv with a count.
+Implemented for Whatsapp texts.
 
 To activate:
-virtualenv .env && source .env/bin/activate && pip install -r requirements.txt
+virtualenv .venv && source .venv/bin/activate && pip install -r requirements.txt
 
 Structure:
 .<br />
-├── formatWhatsAppTexts.py <br />
+├── formatWhatsappTexts.py <br />
 ├── conversationsdir/ <br />
 │   ├── chat.txt <br />
 │   └── anotherchat.txt <br />
@@ -14,4 +15,5 @@ Structure:
 ├── .gitignore <br />
 └── requirements.txt <br />
 
+To run:
 python hello.py <converations-dir> <your-username> <outpt-csv-name>
