@@ -16,4 +16,4 @@ Structure:
 └── requirements.txt <br />
 
 To run:
-python hello.py <converations-dir> <your-username> <outpt-csv-name>
+py formatWhatsappTexts.py <converations-dir> <your-username> <outpt-csv-name>
