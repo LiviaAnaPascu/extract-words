@@ -7,7 +7,6 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -33,14 +32,14 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
+__init__.py
 
 # Environments
 .venv
 venv/
 ENV/
+.vscode
 
 # Outputs
 *.csv

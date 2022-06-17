@@ -8,16 +8,19 @@ Implemented for Whatsapp texts.
 <h1>Format</h1>
 Chat should have default format <em>[DD/MM/YYYY, HH.SS.MM] Username: Message<em>
 
-<h1>To activate</h1>
-virtualenv .venv && source .venv/Scripts/activate && pip install -r requirements.txt
-
 <h1>Structure</h1>
 .<br />
-├── .venv/ <br />
-├── formatWhatsappTexts.py <br />
-├── README.md <br />
+├── ▼ python <br />
+├──── formatWhatsappTexts.py <br />
+├── ▼ requirements <br />
+├──── requirements.txt <br />
+├── ▼ unittest <br />
+├──── ▼ conversations <br />
+├────── chat.txt <br />
+├────── chat2.txt <br />
+├──── unittests.py <br />
 ├── .gitignore <br />
-└── requirements.txt <br />
+└── README.md <br />
 
 <h1>To run</h1>
-py formatWhatsappTexts.py <converations-dir> <outpt-csv-name> <your-username>
+formatWhatsappTexts.exe <converations-dir> <outpt-csv-name> <your-username>
