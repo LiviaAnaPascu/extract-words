@@ -23,4 +23,4 @@ Chat should have default format <em>[DD/MM/YYYY, HH.SS.MM] Username: Message<em>
 └── README.md <br />
 
 <h1>To run</h1>
-formatWhatsappTexts.exe <converations-dir> <outpt-csv-name> <your-username>
+formatWhatsappTexts.exe converations-dir outpt-csv-name your-username
